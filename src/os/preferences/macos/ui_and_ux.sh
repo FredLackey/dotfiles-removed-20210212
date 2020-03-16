@@ -91,7 +91,7 @@ execute "sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist Cont
 
 execute "for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
             sudo defaults write \"\${domain}\" dontAutoLoad -array \
-                '/System/Library/CoreServices/Menu Extras/TimeMachine.menu' \
+                '/System/Library/CoreServices/Menu Extras/TimeMachine.menu'
          done \
             && sudo defaults write com.apple.systemuiserver menuExtras -array \
                 '/System/Library/CoreServices/Menu Extras/Bluetooth.menu' \
