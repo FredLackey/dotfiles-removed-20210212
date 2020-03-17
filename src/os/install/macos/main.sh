@@ -26,6 +26,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./productivity.sh
 ./quick_look.sh
 ./tmux.sh
+./utility.sh
 ./video_tools.sh
 ./../vim.sh
 ./web_font_tools.sh
