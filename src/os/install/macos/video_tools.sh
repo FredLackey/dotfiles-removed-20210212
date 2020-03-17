@@ -10,4 +10,5 @@ print_in_purple "\n   Video Tools\n\n"
 
 brew_install "AtomicParsley" "atomicparsley"
 brew_install "FFmpeg" "ffmpeg"
+brew_install "Plex Media Server" "plex-media-server" "homebrew/cask" "cask"
 brew_install "youtube-dl" "youtube-dl"

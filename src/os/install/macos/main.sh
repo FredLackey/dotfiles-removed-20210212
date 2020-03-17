@@ -12,8 +12,10 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 ./git.sh
 ./../nvm.sh
+./audio.sh
 ./browsers.sh
 ./compression_tools.sh
+./dev.sh
 ./gpg.sh
 ./image_tools.sh
 ./misc.sh
