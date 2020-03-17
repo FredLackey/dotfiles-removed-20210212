@@ -41,7 +41,7 @@ That's it! ✨
 The setup process will:
 
 * Download the dotfiles on your computer
-  (by default it will suggest `~/projects/dotfiles`).
+  (by default it will suggest `~/Setup/dotfiles`).
 * Create some additional [directories][dirs].
 * [Symlink][symlink] the [`git`][git], [`shell`][shell],
   and [`vim`][vim] files.
