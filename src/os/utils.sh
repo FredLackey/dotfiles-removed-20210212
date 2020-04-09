@@ -166,8 +166,6 @@ get_os_name() {
 
     fi
 
-    echo "VERSION NAME: $version"
-
     printf "%s" "$version"
 
 }

@@ -5,6 +5,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-print_in_purple "\n • Installs\n\n"
+print_in_purple "\n • Installs from $(get_os_name)\n\n"
 
 "./$(get_os_name)/main.sh"
