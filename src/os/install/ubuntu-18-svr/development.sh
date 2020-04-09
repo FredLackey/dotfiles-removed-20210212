@@ -39,3 +39,5 @@ install_package "Docker CE" "docker-ce"
 execute \
   "sudo usermod -aG docker $USER" \
   "Docker (update group)"
+
+install_package "Docker Compose" "docker-compose"
