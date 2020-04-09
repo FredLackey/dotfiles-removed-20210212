@@ -17,6 +17,7 @@ upgrade
 ./misc.sh
 ./misc_tools.sh
 ./../npm.sh
+./development.sh
 ./tmux.sh
 ./../vim.sh
 
