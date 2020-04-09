@@ -12,9 +12,11 @@ execute \
   "sudo apt remove docker docker-engine docker.io" \
   "Docker (remove older)"
 
-execute \
-  "sudo apt install apt-transport-https ca-certificates curl software-properties-common gnupg" \
-  "Docker (add certificates)"
+install_package "Debian Archive Keyring" "debian-archive-keyring"
+install_package "CA Certificates" "ca-certificates"
+install_package "Curl" "curl"
+install_package "Software Properties (Common)" "software-properties-common"
+install_package "GNU Privacy Guard" "gnupg"
 
 execute \
   "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -" \
