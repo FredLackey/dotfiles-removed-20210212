@@ -9,6 +9,7 @@ print_in_purple "\n   Admin Tools\n\n"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 brew_install "AppCleaner" "appcleaner" "homebrew/cask" "cask"
+brew_install "Beyond Compare" "beyond-compare" "homebrew/cask" "cask"
 # brew_install "CCleaner" "ccleaner" "homebrew/cask" "cask"
 brew_install "Cocktail" "cocktail" "homebrew/cask" "cask"
 # brew_install "DNSMasq" "dnsmasq"

@@ -6,8 +6,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-print_in_purple "\n   GPG\n\n"
+print_in_purple "\n   tmux\n\n"
 
-brew_install "GPG" "gpg"
-# brew_install "GPG Agent" "gpg-agent"
-brew_install "Pinentry" "pinentry-mac"
+install_package "tmux" "tmux"
