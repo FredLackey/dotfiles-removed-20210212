@@ -154,17 +154,19 @@ get_os_name() {
         version="macos"
     elif [ -e "/etc/os-release" ]; then
         if [ -z "$XDG_CURRENT_DESKTOP" ]; then
-          envflag="svr"
+          envflag="-svr"
         else
-          envflag="wks"
+          envflag="-wks"
         fi
         id="$(. /etc/os-release; printf "%s" "$ID")"
         version_id="$(. /etc/os-release; printf "%s" "$VERSION_ID")"
         parts=(`echo $version_id | tr '.' ' '`)
         int=${parts[0]}
-        version="$id""-""$int""-""$envflag"
+        version="$id""-""$int""$envflag"
 
     fi
+
+    echo "VERSION NAME: $version"
 
     printf "%s" "$version"
 
